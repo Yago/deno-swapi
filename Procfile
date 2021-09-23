@@ -1,1 +1,0 @@
-web: deno run --allow-net --cached-only server.ts --port=8000
