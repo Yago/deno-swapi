@@ -13,6 +13,6 @@ router.get('/starships/:name', (context) => renderPage(Single, context));
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-await app.listen({ port: 8080 });
+await app.listen({ port: 8000 });
 
-console.log('Server listening on http://localhost:8080');
+console.log('Server listening on http://localhost:8000');
